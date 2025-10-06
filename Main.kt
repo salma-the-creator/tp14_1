@@ -1,6 +1,6 @@
 
 package tp14_1
-
+import kotlinx.coroutines.*
 suspend fun verifierDisponibilite() {
     print("Verification en cours)
     delay(2000)
